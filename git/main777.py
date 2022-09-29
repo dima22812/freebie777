@@ -111,7 +111,7 @@ class FreebirMod(loader.Module):
 		self._db.set(__name__, "ratelimit", [])
 		lastname = self.strings("lname")
 		if self.config['feedback_bot'] == None:
-			await message.client(UpdateProfileRequest(about=a_afk_bio_nofb, last_name=lastname))
+			await message.client(UpdateProfileRequest(last_name=lastname))
 		else:
 			a_afk_bio = 'На данный момент в АФК. Связь только через '
 			feedback = self.config['feedback_bot']
