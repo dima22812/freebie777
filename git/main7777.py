@@ -61,8 +61,8 @@ class FreebirMod(loader.Module):
             loader.ConfigValue(
                 "custom_button",
                 [
-                    "💎 Канал 💎",
-                    "https://t.me/FreebieShop777",
+                    "💎 Срочно? Жми👇 💎",
+                    "https://t.me/FreebieShop777_bot1",
                 ],
                 lambda: self.strings("_cfg_cst_btn"),
                 validator=loader.validators.Union(
